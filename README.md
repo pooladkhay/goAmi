@@ -5,7 +5,7 @@ A minimalistic Go library for dealing with Asterisk Manager Interface.
 ## Installation
 
 ```bash
-go get -u github.com/pooladkhay/go-ami/ami
+go get -u github.com/pooladkhay/goAmi
 ```
 
 ## Usage
