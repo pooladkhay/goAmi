@@ -55,4 +55,4 @@ func eventHandler(event map[string]string) {
 Pull requests are welcomed. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://github.com/pooladkhay/goAmi/blob/main/LICENCE.md)
+[MIT](https://github.com/pooladkhay/goAmi/blob/main/LICENSE)
