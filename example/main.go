@@ -25,10 +25,12 @@ func main() {
 	defer client.StartListening()
 
 	if client.Connected {
+		// example sending an action
 		client.SendAction("Action:PJSIPShowEndpoints")
 	}
 }
 
+// eventHandler will receive events as map[string]string which later can be filtered accordingly.
 func eventHandler(event map[string]string) {
 	if event["Event"] != "" {
 		fmt.Println(event)

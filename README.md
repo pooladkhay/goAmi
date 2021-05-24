@@ -38,7 +38,7 @@ func main() {
 	defer client.StartListening()
 
 	if client.Connected {
-      // example sending an action
+		// example sending an action
 		client.SendAction("Action:PJSIPShowEndpoints")
 	}
 }
@@ -49,6 +49,7 @@ func eventHandler(event map[string]string) {
 		fmt.Println(event)
 	}
 }
+
 ```
 ## Contributing
 Pull requests are welcomed. For major changes, please open an issue first to discuss what you would like to change.
